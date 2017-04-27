@@ -1,0 +1,122 @@
+
+/*  introduce  */
+.introduce{
+   padding: 0 80px 18px 80px;
+   margin-bottom: 42px;
+}
+.logo{
+  margin-bottom: 26px;
+}
+.logo h1{
+  font-family: 'GeosansLight',sans-serif;
+  color: #171717;
+  text-align: center;
+  line-height: 78px;
+  background: url(../images/logo_bg.png) no-repeat right bottom;
+  width: 244px;
+  height: 78px;
+  margin: 0 auto;
+}
+.slider{
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+.slider img, .slider ul{
+  float: left;
+}
+.slider img{
+  width: 55%;
+  height: 100%;
+}
+.slider ul{
+  width: 40%;
+}
+.on{
+  background: #dfdfdf;
+}
+li.on .navigation{
+  position: absolute;
+  left: -30px;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  border-width: 15px;
+  border-style: dashed dashed dashed dashed;
+}
+li.on .nav-border{
+  top: 40px;
+  border-color: transparent #ccc transparent transparent;
+}
+li.on .nav-background{
+  top: 39px;
+  border-color: transparent #dfdfdf transparent transparent;
+}
+.slider ul li{
+/*  width: 350px;*/
+  height: 111px;
+  padding-left: 22px;
+  padding-right: 22px;
+  border: 1px solid #ccc;
+  position: relative;
+  overflow: auto;
+}
+.slider h3{
+  font-size: 20px;
+  font-family: nevisBold, sans-serif;
+  margin-top: 19px;
+  color: #909090;
+  line-height: 29px;
+}
+.slider p{
+  font-size: 14px;
+  line-height:20px;
+  margin: 0;
+  color: #909090;
+
+}
+.clear:after{
+     content:"";
+     display:block;
+     height:0;
+     clear:both;
+     visibility:hidden;
+}
+.boxes ul  li{
+  float: left;
+  border: 1px solid #c8c8c8;
+  margin-right: 30px;
+}
+.boxes h3{
+  border-bottom: 1px solid #c8c8c8;
+  color: #393939;
+  line-height: 47px;
+  background: #e5e5e5;
+}
+.boxes ul:first-child h3{
+  padding-left: 16px;
+  padding-right: 60px;
+}
+.boxes li div{
+  padding: 0 2px 0 20px;
+  height: 137px;
+}
+.boxes div li{
+  padding:19px 20px 0 0;
+  border: none;
+}
+.boxes ul li:last-child h3{
+  padding-right: 300px;
+  width: 100px;
+  display: inline-block;
+}
+.boxes ul li:last-child p{
+  width: 374px;
+  color: #393939;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 15px 20px auto 22px;
+}
+.boxes a{
+  color: #393939;
+  font-family: '黑体',sans-serif;
+}

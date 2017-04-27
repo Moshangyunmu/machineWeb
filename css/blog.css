@@ -1,0 +1,124 @@
+.content{
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-top: 0;
+}
+.main, .sidebar{
+  float: left;`
+}
+.main{
+  width: 65%;
+  margin-right: 2%;
+  border-right: 1px solid #c8c8c8;
+  border-top: 1px solid #c8c8c8;
+}
+.main h2, .sidebar h2{
+  height: 47px;
+  line-height: 47px;
+  text-align: left;
+  overflow: hidden;
+  background: url(../images/contactbg.png) repeat-x;
+  font-family: "楷体",sans-serif;
+  width: 96%;
+  padding-left: 4%;
+}
+.queue li{
+  padding: 20px;
+  border-bottom: 1px solid #c8c8c8;
+}
+.queue li img, .queue li section{
+  display: block;
+  float: left;
+}
+.queue img{
+  width: 34%;
+}
+.queue section{
+  width: 58%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.queue section h2{
+  background: none;
+  width: 100%;
+  padding-left: 0;
+}
+section span{
+  color: #b31010;
+  font-size: 14px;
+}
+section p{
+font-size: 18px;
+line-height: 24px;
+}
+p a{
+  color: #000;
+  font-weight: 600;
+}
+p a:hover{
+  color: #f37112;
+}
+.sidebar{
+  width: 32%;
+}
+.sidebar div{
+  border: 1px solid #c8c8c8;
+  margin-bottom: 35px;
+}
+.sponsors ul{
+  padding: 18px 5%;
+}
+.sponsors ul li{
+  float: left;
+}
+.sponsors ul li:nth-child(odd){
+  padding-right: 10%;
+}
+.sponsors ul li:nth-child(3), .sponsors ul li:nth-child(4){
+  padding-top: 6%;
+}
+.sponsors ul img{
+  display: block;
+}
+.cate li{
+  border-bottom: 1px solid #c8c8c8;
+  background: url(../images/bloglibg.png) repeat-x;
+  font-family: '宋体',sans-serif;
+  line-height: 47px;
+  width: 96%;
+  padding-left: 4%;
+}
+.cate li:last-child{
+  border-bottom: none;
+}
+.cate a{
+  color: #000;
+  text-decoration: none;
+}
+.cate a:hover{
+  text-decoration: underline;
+  color: blue;
+}
+.sidebar div > a img{
+  margin: 18px;
+}
+body > ul{
+  padding-left:80px;
+}
+body > ul li{
+  display: inline-block;
+  margin-top: 20px;
+  border: 1px solid #c8c8c8;
+  padding: 10px;
+  color: #535353;
+  font-weight: bold;
+}
+body > ul span{
+  color: #8b8b8b;
+}
+body > a{
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  padding-left: 80px;
+}

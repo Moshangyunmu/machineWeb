@@ -1,0 +1,94 @@
+.content{
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.main{
+  border: 1px solid #c8c8c8;
+}
+.main h2{
+  height: 47px;
+  line-height: 47px;
+  text-align: left;
+  overflow: hidden;
+  background: url(../images/contactbg.png) repeat-x;
+  font-family: "楷体",sans-serif;
+  width: 96%;
+  padding-left: 4%;
+  border-bottom: 1px solid #c8c8c8;
+}
+.queue{
+  padding: 20px;
+}
+.queue img, .queue section, .queue ul{
+  display: block;
+  float: left;
+}
+.queue img{
+  padding-right: 20px;
+}
+.queue section{
+  width: 50%;
+}
+.queue section h2{
+  background-image: none;
+  border-bottom: none;
+  width: 100%;
+  padding-left: 0;
+}
+section span{
+  color: #b31010;
+  font-size: 14px;
+}
+section p{
+font-size: 18px;
+line-height: 24px;
+}
+p a{
+  color: #000;
+  font-weight: 600;
+}
+p a:hover{
+  color: #f37112;
+}
+.queue > ul{
+  padding-left: 20px;
+}
+.queue >ul >li{
+  padding: 20px;
+  border-bottom: 1px solid #c8c8c8;
+}
+.queue ul ul{
+  width: 20%;
+}
+.queue ul ul img{
+  display: block;
+  padding: 0;
+  margin: 0;
+  padding-right: 4%;
+  vertical-align: middle;
+}
+.queue ul ul a{
+  color: #000;
+  font-size: 16px;
+  line-height: 24px;
+}
+body > ul{
+  padding-left:80px;
+}
+body > ul li{
+  display: inline-block;
+  margin-top: 20px;
+  border: 1px solid #c8c8c8;
+  padding: 10px;
+  color: #535353;
+  font-weight: bold;
+}
+body > ul span{
+  color: #8b8b8b;
+}
+body > a{
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  padding-left: 80px;
+}

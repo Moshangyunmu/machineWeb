@@ -1,0 +1,73 @@
+/*  Content  */
+.content{
+  background: #fff;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-bottom: 54px;
+}
+.contactUs, .sidebar{
+  float:left;
+}
+.contactUs{
+  border: 1px solid #c8c8c8;
+  width: 65%;
+  margin-right: 2%;
+}
+.contactUs > h2, .contactUs form, .sidebar li{
+  width: 96%;
+  padding-left: 4%;
+}
+.contactUs h2, .sidebar li{
+  height: 47px;
+  line-height: 47px;
+  text-align: left;
+  overflow: hidden;
+}
+.contactUs h2, .sidebar li:first-child{
+  background: url(../images/contactbg.png) repeat-x;
+  font-family: "楷体",sans-serif;
+}
+.contactUs > h2{
+  border-bottom: 1px solid #c8c8c8;
+}
+article{
+  width: 92%;
+  padding-left: 4%;
+  padding-right: 4%;
+  margin-top: 17px;
+}
+.contactUs article h2{
+  background-image: none;
+  line-height: 43px;
+  font-weight: 600;
+}
+article p{
+  font-size: 16px;
+  line-height: 25px;
+  font-family: '宋体',sans-serif;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #c8c8c8;
+}
+.sidebar{
+  width: 32%;
+  border: 1px solid #c8c8c8;
+  border-bottom: none;
+}
+.sidebar li{
+  border-bottom: 1px solid #c8c8c8;
+  background: url(../images/sidebarbg.png) repeat-x;
+  font-family: '宋体',sans-serif;
+}
+form{
+  line-height: 30px;
+  font-size: 18px;
+  padding-top: 9px;
+  padding-bottom: 22px;
+}
+input, textarea{
+  border: 1px solid #cfcfcf;
+  background: #dedede;
+}
+input[type='submit']{
+  background: #626262;
+}

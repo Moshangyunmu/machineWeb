@@ -1,0 +1,95 @@
+.content{
+  background: #fff;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.main, .sidebar{
+  float: left;
+}
+.main{
+  border: 1px solid #c8c8c8;
+  border-left: none;
+  width:65%;
+  margin-right: 2%;
+}
+.sidebar div{
+  border: 1px solid #c8c8c8;
+}
+.main h2, .sidebar h2{
+  height: 47px;
+  line-height: 47px;
+  text-align: left;
+  overflow: hidden;
+  background: url(../images/contactbg.png) repeat-x;
+  font-family: "楷体",sans-serif;
+  width: 96%;
+  padding-left: 4%;
+}
+.main img{
+  display: inline-block;
+  margin-top: 35px;
+  margin-left: 5%;
+}
+.main article h2{
+  line-height: 36px;
+  background: none;
+}
+article p, .main section{
+  font-size: 16px;
+  width: 94%;
+  padding-left: 4%;
+  line-height: 28px;
+  padding-right: 2%;
+}
+.main ul{
+  padding-top: 21px;
+  padding-bottom: 24px;
+  list-style: square inside url("../images/liststyle.png");
+}
+.main ul li{
+  width: 96%;
+  padding-left: 4%;
+  font-size: 16px;
+  line-height: 24px;
+}
+.main section{
+  color: #9a9a9a;
+  border-left: 1px solid #b9b9b9;
+  margin-bottom: 65px;
+}
+.sidebar{
+  width: 32%;
+}
+.sidebar div{
+  margin-bottom: 35px;
+}
+.sidebar ul{
+  padding: 18px 5%;
+}
+.sidebar ul li{
+  float: left;
+}
+.sidebar ul li:nth-child(odd){
+  padding-right: 10%;
+}
+.sidebar ul li:nth-child(3), .sidebar ul li:nth-child(4){
+  padding-top: 6%;
+}
+.sidebar ul img{
+  display: block;
+}
+.sidebar p{
+  width: 92%;
+  padding: 4%;
+  font-size: 16px;
+  line-height: 24px;
+}
+.sidebar div > a img{
+  margin: 18px;
+}
+body > a{
+  display: block;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  padding-left: 80px;
+}
