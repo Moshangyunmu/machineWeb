@@ -5,12 +5,6 @@ window.onload = function(){
   var oImg = oIntro.getElementsByTagName('img')[0];
   var aImgURL = ['images/slider_bg1.png', 'images/slider_bg2.png', 'images/slider_bg3.png'];
   var count = 1;
- /* alert(oImg.offsetHeight);*/
-
- /* for(var i=0; i<aLi.length; i++){
-    aLi[i].style.height = parseInt(oImg.offsetHeight/3) + 'px';
-    alert(aLi[0].offsetHeight);
-  }*/
 
   oImg.src = aImgURL[0];
   oSlider.timer = setInterval(move,1000);
