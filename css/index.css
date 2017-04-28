@@ -19,16 +19,18 @@
 }
 .slider{
   margin-bottom: 16px;
+  height: 333px;
+  overflow: hidden;
 }
 .slider img, .slider ul{
   float: left;
 }
 .slider img{
   display: block;
-  width: 50%;
+  width: 650px;
 }
 .slider ul{
-  width: 40%;
+  width: 395px;
 }
 .on{
   background: #dfdfdf;
@@ -53,7 +55,7 @@ li.on .nav-background{
 }
 .slider ul li{
   width: 350px;
-  height: 100px;
+  height: 110px;
   padding-left: 22px;
   padding-right: 22px;
   border: 1px solid #ccc;
