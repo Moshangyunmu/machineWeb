@@ -4,6 +4,7 @@
 }
 .main{
   border: 1px solid #c8c8c8;
+  overflow: auto;
 }
 .main h2{
   height: 47px;

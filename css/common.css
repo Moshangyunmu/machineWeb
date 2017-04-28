@@ -32,6 +32,7 @@ img{
   height: 35px;
   background-color: #010101;
 /*  margin-bottom: 12px;*/
+overflow: hidden;
 }
 .nav ul{
   margin-left: 80px;

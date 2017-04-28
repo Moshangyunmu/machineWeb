@@ -12,6 +12,7 @@
   border: 1px solid #c8c8c8;
   width: 65%;
   margin-right: 2%;
+  overflow: auto;
 }
 .contactUs > h2, .contactUs form, .sidebar li{
   width: 96%;

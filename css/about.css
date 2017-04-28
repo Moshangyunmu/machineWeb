@@ -11,6 +11,7 @@
   border-left: none;
   width:65%;
   margin-right: 2%;
+  overflow: hidden;
 }
 .sidebar div{
   border: 1px solid #c8c8c8;
@@ -83,6 +84,7 @@ article p, .main section{
   padding: 4%;
   font-size: 16px;
   line-height: 24px;
+  overflow: auto;
 }
 .sidebar div > a img{
   margin: 18px;

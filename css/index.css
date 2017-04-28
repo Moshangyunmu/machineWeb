@@ -23,6 +23,13 @@
 .slider img, .slider ul{
   float: left;
 }
+.slider img{
+  display: block;
+  width: 50%;
+}
+.slider ul{
+  width: 40%;
+}
 .on{
   background: #dfdfdf;
 }
@@ -34,6 +41,7 @@ li.on .navigation{
   height: 0;
   border-width: 15px;
   border-style: dashed dashed dashed dashed;
+  overflow: auto;
 }
 li.on .nav-border{
   top: 40px;
